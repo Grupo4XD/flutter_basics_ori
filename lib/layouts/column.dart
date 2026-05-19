@@ -9,7 +9,7 @@ class ColumExample extends StatelessWidget {
     //Permite poner vistas una debajo de otra
     return Container(
       //El container es otro componente que tambien tiene muchos atributos, es el padre de la columna y sus cambios seran hacia el
-      width: double.infinity, //Dice que ocupe todo el ancho sin iomportar que la columna lo nesesite
+      width: double.infinity, //Dice que ocupe todo el ancho sin importar que la columna lo nesesite
       //width: 1000,
       //height: 800,
       color: const Color.fromARGB(255, 38, 69, 172), //Color de fondo
@@ -29,6 +29,8 @@ class ColumExample extends StatelessWidget {
           Text("Columna 1"),
           Text("Columna 1"),
           Text("Columna 1"),
+          Text("Columna 1"),
+          
         ],
       ),
     );
