@@ -29,10 +29,13 @@ class ButtonExample extends StatelessWidget {
           child: Text("TextButton"),
         ), //Boton sin borde de color gris
         FloatingActionButton(
-          onPressed: (){},
+          onPressed: () {},
           child: Icon(Icons.add),
         ), //Sirve para poner iconos o un boton con iconos
-        IconButton(onPressed: (){}, icon: Icon(Icons.favorite)),//Boton de solo iconos no muestra tecto
+        IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.favorite),
+        ), //Boton de solo iconos no muestra tecto
         Spacer(),
       ],
     );
